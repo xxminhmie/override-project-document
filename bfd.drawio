@@ -1,55 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-10-03T13:14:23.179Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="fAak-qR19Af6370cv_be" version="13.7.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-10T08:21:27.324Z" agent="5.0 (Windows)" etag="MXE9Z9IobfnOZVyYvWbC" version="13.7.9" type="github" pages="2">
   <diagram id="61rkjz9Lp1AConV59vIG" name="Page-1">
-    <mxGraphModel dx="1629" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1769" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-1" value="quản lý bán hàng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="80" width="160" height="40" as="geometry" />
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-1" value="Phầm mềm hỗ trợ bán giày đa nền tảng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kTmqHJCevsjbYoyHa1JA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kTmqHJCevsjbYoyHa1JA-1" target="kTmqHJCevsjbYoyHa1JA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-3" value="quản lý sản phẩm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-4" value="quản lý khách hàng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-5" value="quản lý giao hàng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-6" value="báo cáo thống kê" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="kTmqHJCevsjbYoyHa1JA-7" value="" style="endArrow=none;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-30" y="160" as="sourcePoint" />
-            <mxPoint x="910" y="160" as="targetPoint" />
+            <mxPoint x="1080" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-9" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="kTmqHJCevsjbYoyHa1JA-3" edge="1">
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-9" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="1Z4nRkm3sNiZZZ2hFhxT-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="160" as="sourcePoint" />
-            <mxPoint x="440" y="390" as="targetPoint" />
+            <mxPoint x="110" y="160" as="sourcePoint" />
+            <mxPoint x="40" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="kTmqHJCevsjbYoyHa1JA-4" edge="1">
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="1Z4nRkm3sNiZZZ2hFhxT-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="160" as="sourcePoint" />
-            <mxPoint x="440" y="390" as="targetPoint" />
+            <mxPoint x="280" y="160" as="sourcePoint" />
+            <mxPoint x="230" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="kTmqHJCevsjbYoyHa1JA-5" edge="1">
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="1Z4nRkm3sNiZZZ2hFhxT-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="160" as="sourcePoint" />
-            <mxPoint x="550" y="210" as="targetPoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-12" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="kTmqHJCevsjbYoyHa1JA-6" edge="1">
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-12" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="1Z4nRkm3sNiZZZ2hFhxT-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="160" as="sourcePoint" />
-            <mxPoint x="440" y="390" as="targetPoint" />
+            <mxPoint x="730" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kTmqHJCevsjbYoyHa1JA-13" value="" style="endArrow=none;html=1;" parent="1" edge="1">
@@ -58,181 +46,151 @@
             <mxPoint x="440" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-17" value="cập nhật thông tin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="290" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-18" value="cập nhật sản phẩm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="290" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-22" value="cập nhật thông tin đơn hàng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="290" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-23" value="thay đổi trạng thái đơn hàng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="360" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-26" value="thống kê số lượng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="290" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-27" value="thống kê doanh thu" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="360" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-28" value="thống kê đơn đặt hàng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="430" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-30" value="" style="endArrow=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kTmqHJCevsjbYoyHa1JA-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="430" as="sourcePoint" />
-            <mxPoint x="320" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-31" value="" style="endArrow=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kTmqHJCevsjbYoyHa1JA-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="430" as="sourcePoint" />
-            <mxPoint x="140" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-32" value="" style="endArrow=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kTmqHJCevsjbYoyHa1JA-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="430" as="sourcePoint" />
-            <mxPoint x="510" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-34" value="" style="endArrow=none;html=1;entryX=0.192;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="kTmqHJCevsjbYoyHa1JA-6" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="693" y="450" as="sourcePoint" />
-            <mxPoint x="450" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-35" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kTmqHJCevsjbYoyHa1JA-26" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="400" as="sourcePoint" />
-            <mxPoint x="690" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-37" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kTmqHJCevsjbYoyHa1JA-28" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="550" as="sourcePoint" />
-            <mxPoint x="690" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-38" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kTmqHJCevsjbYoyHa1JA-27" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="690" y="580" as="sourcePoint" />
-            <mxPoint x="690" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-41" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="kTmqHJCevsjbYoyHa1JA-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="310" as="sourcePoint" />
-            <mxPoint x="440" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-45" value="" style="endArrow=none;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="310" as="sourcePoint" />
-            <mxPoint x="170" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-46" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kTmqHJCevsjbYoyHa1JA-22" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="390" as="sourcePoint" />
-            <mxPoint x="510" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kTmqHJCevsjbYoyHa1JA-47" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kTmqHJCevsjbYoyHa1JA-23" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="390" as="sourcePoint" />
-            <mxPoint x="510" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-1" value="xuất hóa đơn" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="430" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-2" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="phVmAIVQuDpJWwnpsCzK-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="460" as="sourcePoint" />
-            <mxPoint x="510" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-3" value="thay đổi trạng thái sản phẩm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="360" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-4" value="" style="endArrow=none;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="380" as="sourcePoint" />
-            <mxPoint x="170" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-13" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="h8XSTWzfuWWoR5IS9HZE-3" edge="1">
+        <mxCell id="phVmAIVQuDpJWwnpsCzK-13" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="1Z4nRkm3sNiZZZ2hFhxT-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="910" y="160" as="sourcePoint" />
             <mxPoint x="910" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-17" value="tìm kiếm đơn hàng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="500" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-18" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="phVmAIVQuDpJWwnpsCzK-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="530" as="sourcePoint" />
-            <mxPoint x="510" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-19" value="tìm kiếm khách" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="360" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-20" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="phVmAIVQuDpJWwnpsCzK-19" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="390" as="sourcePoint" />
-            <mxPoint x="320" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-21" value="tìm kiếm sản phẩm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="420" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-22" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="phVmAIVQuDpJWwnpsCzK-21" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="450" as="sourcePoint" />
-            <mxPoint x="140" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-25" value="&lt;h1&gt;yêu cầu chức năng của:&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;hệ thống:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/h1&gt;&lt;p&gt;-Quản lý sản phẩm&lt;/p&gt;&lt;p&gt;-Quản lý khách hàng&lt;/p&gt;&lt;p&gt;-Quản lý giao hàng&lt;/p&gt;&lt;p&gt;-Báo cáo thống kê&lt;/p&gt;&lt;h1&gt;người dùng:&lt;/h1&gt;&lt;div&gt;-Tra cứu thông tin cá nhân, chỉnh sửa thông tin&lt;/div&gt;&lt;div&gt;-Quản lý đơn hàng của mình, theo dõi trạng của đơn hàng.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="600" width="460" height="410" as="geometry" />
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-26" value="&lt;h1&gt;yêu cầu phi chức năng&lt;/h1&gt;&lt;p&gt;-Cài đặt phầm mềm quản lý vật tư dễ sử dụng, giao diện thân thiện, đáp ứng được các&lt;/p&gt;&lt;p&gt;yêu cầu đòi hỏi của việc quản lý thiết bị vật tư.&lt;/p&gt;&lt;p&gt;-Thường xuyên nắm bắt được tình hình biến động về số thực và giá trị của từng nhóm,&lt;/p&gt;&lt;p&gt;từng loại, và toàn bộ vật tư thiết bị.&lt;/p&gt;&lt;p&gt;-Cập nhật đầy đủ kịp thời những biến động về vật tư. Vào sổ các bảng kiểm kê, bảng&lt;/p&gt;&lt;p&gt;tổng hợp, và báo cáo về vật tư theo qui định.&lt;/p&gt;&lt;p&gt;-Yêu cầu bảo mật ở mức cơ bản&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="500" y="590" width="580" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="phVmAIVQuDpJWwnpsCzK-27" value="" style="endArrow=none;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="610" as="sourcePoint" />
-            <mxPoint x="400" y="920" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h8XSTWzfuWWoR5IS9HZE-1" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="h8XSTWzfuWWoR5IS9HZE-2">
+        <mxCell id="h8XSTWzfuWWoR5IS9HZE-1" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="h8XSTWzfuWWoR5IS9HZE-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-30" y="160" as="sourcePoint" />
             <mxPoint x="-30" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h8XSTWzfuWWoR5IS9HZE-2" value="Uỷ quyền - quản lý token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="h8XSTWzfuWWoR5IS9HZE-2" value="Uỷ quyền tài khoản bán hàng trên nền tảng laz - quản lý token" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-533" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h8XSTWzfuWWoR5IS9HZE-3" value="Đăng nhập" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="dDMBxTAUdb5TQkIX02qE-4" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="1Z4nRkm3sNiZZZ2hFhxT-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="160" as="sourcePoint" />
+            <mxPoint x="1080" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-13" value="Quản lý khách hàng local" style="swimlane;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="380" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-17" value="cập nhật thông tin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-13" vertex="1">
+          <mxGeometry x="30" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-4" value="thêm khách hàng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-13">
+          <mxGeometry x="30" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-10" value="ghi lại công nợ" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-13">
+          <mxGeometry x="30" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-11" value="xóa khách hàng" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-13">
+          <mxGeometry x="30" y="165" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-14" value="Quản lý đơn hàng local" style="swimlane;strokeWidth=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-23" value="thay đổi trạng thái vận chuyển đơn hàng local" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-14" vertex="1">
+          <mxGeometry x="40" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phVmAIVQuDpJWwnpsCzK-1" value="xuất hóa đơn" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-14" vertex="1">
+          <mxGeometry x="40" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-17" value="lập và lưu hóa đơn" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-14">
+          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-18" value="tìm kiếm, hiển thị hóa đơn" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-14">
+          <mxGeometry x="40" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-15" value="Quản lý đơn hàng laz" style="swimlane;strokeWidth=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-22" value="cập nhật trạng thái vận chuyển của đơn hàng laz" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-15" vertex="1">
+          <mxGeometry x="40" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phVmAIVQuDpJWwnpsCzK-17" value="tìm kiếm, hiển thị đơn hàng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-15" vertex="1">
+          <mxGeometry x="40" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-16" value="lưu trữ đơn hàng từ laz" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-15">
+          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-19" value="xuất hóa đơn, xuất tem vận chuyển" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-15">
+          <mxGeometry x="40" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-20" value="quản lý sản phẩm" style="swimlane;strokeWidth=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="380" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phVmAIVQuDpJWwnpsCzK-21" value="tìm kiếm, hiển thị sản phẩm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-20" vertex="1">
+          <mxGeometry x="40" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="phVmAIVQuDpJWwnpsCzK-3" value="thay đổi trạng thái sản phẩm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-20" vertex="1">
+          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-18" value="cập nhật sản phẩm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-20" vertex="1">
+          <mxGeometry x="40" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-36" value="thêm sản phẩm" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-20">
+          <mxGeometry x="40" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-21" value="báo cáo thống kê" style="swimlane;strokeWidth=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-26" value="thống kê tổng doanh thu" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-21" vertex="1">
+          <mxGeometry x="40" y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-27" value="thống kê doanh số, doanh thu từng sản phẩm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-21" vertex="1">
+          <mxGeometry x="40" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kTmqHJCevsjbYoyHa1JA-28" value="thống kê số lượng đơn đặt hàng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1Z4nRkm3sNiZZZ2hFhxT-21" vertex="1">
+          <mxGeometry x="40" y="184.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-23" value="thống kê tổng số lượng phiếu nhập kho" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-21">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-24" value="thống kê tổng giá trị hàng hóa nhập kho" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-21">
+          <mxGeometry x="40" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-26" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1Z4nRkm3sNiZZZ2hFhxT-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="160" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-29" value="kho" style="swimlane;strokeWidth=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="305" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="YCihZcEVs4TTuCUgJ-U5-1" value="Lập phiếu nhập kho" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-29">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-27" value="sửa đổi phiếu nhập kho" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-29">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-28" value="xóa phiếu nhập kho" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-29">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-31" value="tài khoản người dùng" style="swimlane;strokeWidth=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="920" y="360" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-32" value="đăng ký tài khoản" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-31">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-33" value="đăng nhập" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-31">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Z4nRkm3sNiZZZ2hFhxT-34" value="quản lý thông tin tài khoản" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1Z4nRkm3sNiZZZ2hFhxT-31">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ufuE1Ecq5jh5dPDCyW_U" name="Page-2">
-    <mxGraphModel dx="1629" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1uaEtgSAzZ2rHzgdi-1v-0" />
         <mxCell id="1uaEtgSAzZ2rHzgdi-1v-1" parent="1uaEtgSAzZ2rHzgdi-1v-0" />
-        <mxCell id="1uaEtgSAzZ2rHzgdi-1v-2" value="&lt;h1&gt;Yêu cầu chức năng mức tổng quát&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;1. Quản lý sản phẩm bán trên lazada và bán local.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2. Quản lý giao hàng và đơn hàng trên lazada và local riêng biệt.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;3. Quản lý khách hàng local&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;4. Ủy quyền (&lt;/font&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; letter-spacing: 0.2px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font size=&quot;3&quot;&gt;authorization&lt;/font&gt;&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;) người bán trên lazada&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;5. Báo cáo thống kê&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;6. Đăng nhập tài khoản người dùng&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1uaEtgSAzZ2rHzgdi-1v-1">
-          <mxGeometry x="-10" y="10" width="410" height="1600" as="geometry" />
+        <mxCell id="1uaEtgSAzZ2rHzgdi-1v-2" value="&lt;h1&gt;Yêu cầu chức năng mức tổng quát&lt;/h1&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;1. Quản lý sản phẩm bán trên lazada và bán local.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2. Quản lý giao hàng và đơn hàng trên lazada và local riêng biệt.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;3. Quản lý khách hàng local&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;4. Ủy quyền (&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; letter-spacing: 0.2px ; background-color: rgb(255 , 255 , 255)&quot;&gt;authorization&lt;/span&gt;) người bán trên lazada&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;5. Báo cáo thống kê&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;6. Đăng nhập tài khoản người dùng&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;7. Quản lý kho&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#000000;" parent="1uaEtgSAzZ2rHzgdi-1v-1" vertex="1">
+          <mxGeometry x="9" y="10" width="410" height="1710" as="geometry" />
         </mxCell>
-        <mxCell id="1uaEtgSAzZ2rHzgdi-1v-3" value="&lt;h1&gt;Yêu cầu chức năng mức chi tiết&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;1.1 Thêm sản phẩm bằng form từ phần mềm, sau đó cập nhật lên lazada và lưu vào database.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;1.2 Thêm sản phẩm từ lazada sau đó lưu vào database&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;1.3 Cập nhật sản phẩm: phần mềm hiển thị tất cả thông tin sản phẩm và cho phép người dùng sửa thông tin. Sau khi nhấn lưu sản phẩm được cập nhật lên lazada và cập nhật vào database.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;1.4 Xóa sản phẩm: phần mềm cho phép người dùng xóa sản phẩm, và cập nhật sản phẩm bị xóa lên lazada và database. Sản phẩm xóa không mất đi trong database mà được thay đổi trạng thái hiển thị.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;1.5 Tìm kiếm sản phẩm: tìm kiếm theo nhiều tiêu chí (parameter) cùng một lúc.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium&quot;&gt;2.1 Lấy và hiển thị đơn hàng từ laz trong một trang riêng.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2.2 In team vận chuyển lấy từ laz khi đơn hàng ở cả hai trạng thái pending và ready to ship.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2.3 Cập nhật đơn hàng đang ở trạng thái pending sang ready to ship hoặc từ pending sang cancled.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2.4 Tìm kiếm đơn hàng theo nhiều tiêu chí (parameter) cùng một lúc.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2.4 Lập đơn hàng local và hiển thị trong trang riêng.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2.6 Đơn hàng local được lập bằng cách chọn từ list sản phẩm, có thể hiển thị list bằng cách tìm kiếm. Đơn hàng local chứa thông tin khách hàng local hoặc không. Địa chỉ giao hàng có thể trống hoặc có. Địa chỉ giao hàng mặc định là địa chỉ của khách hàng, có thể thay đổi được địa chỉ giao hàng ngay trên form lập hóa đơn.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2.7 Đơn hàng local trả trước và trả sau. Nếu khách hàng đã chuyển khoảng trước toàn bộ hoặc chuyển khoảng đặt cọc, người dùng có thể điền số tiền đã trả, và đơn hàng tự động hiển thì số tiền còn lại cần thanh toán.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2.8 Quản lý trạng thái giao hàng của đơn hàng local. Đơn hàng local có thể thay đổi trạng thái tùy ý giữa 3 trạng thái ( chờ giao, đã giao, đã hủy ).&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2.9 Xuất hóa đơn từ đơn hàng local. Xuất thành file pdf. Chứa các thông tin về sản phẩm, thông tin người mua, địa chỉ giao hàng.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;3.1 Người dùng thêm khách hàng local vơi thông tin gồm tên, sđt, địa chỉ mặc định (có thể có hoặc không).&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;3.2 Thay đổi thông tin khách hàng.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;3.3 Xóa khách hàng.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;3.4 Tìm kiếm khách hàng.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;4.1 Dẫn link người dùng đến trang authorziation của laz, sau khi người dùng đăng nhập môt token sẽ đc gửi về web, thông qua parameter. Yêu cầu lữu trữ token đó và refesh token tự động.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;5.1 Thống kê theo tiêu chí (parameter). Thống kê tổng doanh thu trên từng nền tảng trong một khoảng thời gian.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;5.2 Thống kê doanh số và doanh thu bán ra của từng sản phẩm trên từng nền tảng trong một khoảng thời gian.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;5.3 Thống kê tổng tiền mua hàng của khách hàng local trong một khoảng thời gian.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;6.1 Cung cấp người dùng một tài khoản. Người dùng cần đăng nhập để sử dụng phần mềm&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1uaEtgSAzZ2rHzgdi-1v-1">
-          <mxGeometry x="400" y="10" width="400" height="1560" as="geometry" />
+        <mxCell id="1uaEtgSAzZ2rHzgdi-1v-3" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Yêu cầu chức năng mức chi tiết&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;1.1 Thêm sản phẩm bằng form từ phần mềm, sau đó cập nhật lên lazada và lưu vào database.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;1.2 Thêm sản phẩm từ lazada sau đó lưu vào database&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;1.3 Cập nhật sản phẩm: phần mềm hiển thị tất cả thông tin sản phẩm và cho phép người dùng sửa thông tin. Sau khi nhấn lưu sản phẩm được cập nhật lên lazada và cập nhật vào database.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;1.4 Xóa sản phẩm: phần mềm cho phép người dùng xóa sản phẩm, và cập nhật sản phẩm bị xóa lên lazada và database. Sản phẩm xóa không mất đi trong database mà được thay đổi trạng thái hiển thị.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;1.5 Tìm kiếm sản phẩm: tìm kiếm theo nhiều tiêu chí (parameter) cùng một lúc.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;span&gt;2.1 Lấy và hiển thị đơn hàng từ laz trong một trang riêng.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2.2 In team vận chuyển lấy từ laz khi đơn hàng ở cả hai trạng thái pending và ready to ship.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2.3 Cập nhật đơn hàng đang ở trạng thái pending sang ready to ship hoặc từ pending sang cancled.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2.4 Tìm kiếm đơn hàng theo nhiều tiêu chí (parameter) cùng một lúc.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2.5 Lập đơn hàng local và hiển thị trong trang riêng.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2.6 Đơn hàng local được lập bằng cách chọn từ list sản phẩm, có thể hiển thị list bằng cách tìm kiếm. Đơn hàng local chứa thông tin khách hàng local hoặc không. Địa chỉ giao hàng có thể trống hoặc có. Địa chỉ giao hàng mặc định là địa chỉ của khách hàng, có thể thay đổi được địa chỉ giao hàng ngay trên form lập hóa đơn.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2.7 Đơn hàng local trả trước và trả sau. Nếu khách hàng đã chuyển khoảng trước toàn bộ hoặc chuyển khoảng đặt cọc, người dùng có thể điền số tiền đã trả, và đơn hàng tự động hiển thì số tiền còn lại cần thanh toán.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2.8 Quản lý trạng thái giao hàng của đơn hàng local. Đơn hàng local có thể thay đổi trạng thái tùy ý giữa 3 trạng thái ( chờ giao, đã giao, đã hủy ).&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2.9 Xuất hóa đơn từ đơn hàng local. Xuất thành file pdf. Chứa các thông tin về sản phẩm, thông tin người mua, địa chỉ giao hàng.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;3.1 Người dùng thêm khách hàng local vơi thông tin gồm tên, sđt, địa chỉ mặc định (có thể có hoặc không).&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;3.2 Thay đổi thông tin khách hàng.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;3.3 Xóa khách hàng.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;3.4 Tìm kiếm khách hàng.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;4.1 Dẫn link người dùng đến trang authorziation của laz, sau khi người dùng đăng nhập môt token sẽ đc gửi về web, thông qua parameter. Yêu cầu lữu trữ token đó và refesh token tự động.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;5.1 Thống kê theo tiêu chí (parameter). Thống kê tổng doanh thu trên từng nền tảng trong một khoảng thời gian.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;5.2 Thống kê doanh số và doanh thu bán ra của từng sản phẩm trên từng nền tảng trong một khoảng thời gian.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;5.3 Thống kê tổng tiền mua hàng của khách hàng local trong một khoảng thời gian.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;6.1 Cung cấp người dùng một tài khoản. Người dùng cần đăng nhập để sử dụng phần mềm&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;7.1 Lập phiếu nhập kho. Sản phẩm được thay đổi số lượng thông qua phiếu nhập kho. Lập phiếu nhập kho gồm tên sản phẩm, giá nhập, số lượng, ngày nhập.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;7.2 Quản lý phiếu nhập kho: xóa, sửa&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;7.3 Hiển thị, tìm kiếm phếu nhập kho.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#000000;perimeterSpacing=0;" parent="1uaEtgSAzZ2rHzgdi-1v-1" vertex="1">
+          <mxGeometry x="419" y="10" width="400" height="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="kGO2C1HkzjmKY07CO5Qp-0" value="&lt;h1&gt;yêu cầu phi chức năng&lt;/h1&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;-Cài đặt phầm mềm quản lý vật tư dễ sử dụng, giao diện thân thiện, đáp ứng được các&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;yêu cầu đòi hỏi của việc quản lý thiết bị vật tư.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;-Thường xuyên nắm bắt được tình hình biến động về số thực và giá trị của từng nhóm,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;từng loại, và toàn bộ vật tư thiết bị.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;-Cập nhật đầy đủ kịp thời những biến động về vật tư. Vào sổ các bảng kiểm kê, bảng&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;tổng hợp, và báo cáo về vật tư theo qui định.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;-Yêu cầu bảo mật ở mức cơ bản&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" parent="1uaEtgSAzZ2rHzgdi-1v-1" vertex="1">
+          <mxGeometry x="30" y="1770" width="760" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
