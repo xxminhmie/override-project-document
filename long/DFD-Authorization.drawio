@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T15:57:25.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4315.5 Safari/537.36" etag="EkE29RAgWKNC0fHirtYN" version="13.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-06T16:02:37.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4315.5 Safari/537.36" etag="eBaCbIYHl9_CZuRaFbHd" version="13.9.2" type="github">
   <diagram id="SLStGJWWbtIfWfqQh3Ac" name="Page-1">
-    <mxGraphModel dx="1182" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,11 +81,14 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="740" y="320" as="sourcePoint" />
             <mxPoint x="790" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="340" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5PGrLvmycQfad8IWAgw-21" value="code tạo access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rotation=-35;" parent="R5PGrLvmycQfad8IWAgw-20" vertex="1" connectable="0">
+        <mxCell id="R5PGrLvmycQfad8IWAgw-21" value="code tạo access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rotation=0;" parent="R5PGrLvmycQfad8IWAgw-20" vertex="1" connectable="0">
           <mxGeometry x="0.2631" y="2" relative="1" as="geometry">
-            <mxPoint x="-12.43" y="-10.440000000000001" as="offset" />
+            <mxPoint x="-45.43" y="-14.440000000000001" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R5PGrLvmycQfad8IWAgw-22" value="Laz Open Platform" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -102,15 +105,18 @@
             <mxPoint y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5PGrLvmycQfad8IWAgw-26" value="" style="endArrow=classic;html=1;fontSize=12;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="R5PGrLvmycQfad8IWAgw-22" target="R5PGrLvmycQfad8IWAgw-11" edge="1">
+        <mxCell id="R5PGrLvmycQfad8IWAgw-26" value="" style="endArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="R5PGrLvmycQfad8IWAgw-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="540" as="sourcePoint" />
+            <mxPoint x="230" y="370" as="sourcePoint" />
             <mxPoint x="540" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="500" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5PGrLvmycQfad8IWAgw-27" value="Access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rotation=25;" parent="R5PGrLvmycQfad8IWAgw-26" vertex="1" connectable="0">
+        <mxCell id="R5PGrLvmycQfad8IWAgw-27" value="Access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rotation=0;" parent="R5PGrLvmycQfad8IWAgw-26" vertex="1" connectable="0">
           <mxGeometry x="-0.2312" y="-2" relative="1" as="geometry">
-            <mxPoint x="7" y="14.46" as="offset" />
+            <mxPoint x="111.23" y="-13.57" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R5PGrLvmycQfad8IWAgw-28" value="Access token" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;fontSize=12;" parent="1" vertex="1">
@@ -146,11 +152,14 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="830" y="670" as="sourcePoint" />
             <mxPoint x="740" y="635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="660" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mkMfAUHAmK-2bPL1mv0b-5" value="Thông tin access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R5PGrLvmycQfad8IWAgw-35">
           <mxGeometry x="0.143" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-33" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mkMfAUHAmK-2bPL1mv0b-1" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.983;entryY=0.683;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R5PGrLvmycQfad8IWAgw-14" target="R5PGrLvmycQfad8IWAgw-2">
@@ -172,6 +181,20 @@
         </mxCell>
         <mxCell id="mkMfAUHAmK-2bPL1mv0b-4" value="Thông báo yêu cầu không hợp lề" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mkMfAUHAmK-2bPL1mv0b-3">
           <mxGeometry x="-0.0687" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkMfAUHAmK-2bPL1mv0b-6" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="R5PGrLvmycQfad8IWAgw-32" target="R5PGrLvmycQfad8IWAgw-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="660" as="sourcePoint" />
+            <mxPoint x="300" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkMfAUHAmK-2bPL1mv0b-7" value="Yêu cầu refresh token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mkMfAUHAmK-2bPL1mv0b-6">
+          <mxGeometry x="-0.2625" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
