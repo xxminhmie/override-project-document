@@ -108,9 +108,9 @@ DROP TABLE IF EXISTS `customer`;
 CREATE TABLE `customer` (
   `customer_id` varchar(20) NOT NULL COMMENT 'Mã khách hàng',
   `name` varchar(100) NOT NULL COMMENT 'Tên khách hàng',
-  `phone_number` varchar(12) NOT NULL COMMENT 'Số điện thoại',
-  `address` varchar(255) NOT NULL COMMENT 'Địa chỉ',
-  `email` varchar(100) NOT NULL COMMENT 'Email',
+  `phone_number` varchar(12) DEFAULT NULL COMMENT 'Số điện thoại',
+  `address` varchar(255) DEFAULT NULL COMMENT 'Địa chỉ',
+  `email` varchar(100) DEFAULT NULL COMMENT 'Email',
   PRIMARY KEY (`customer_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -122,66 +122,6 @@ CREATE TABLE `customer` (
 LOCK TABLES `customer` WRITE;
 /*!40000 ALTER TABLE `customer` DISABLE KEYS */;
 /*!40000 ALTER TABLE `customer` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `goods_received_note`
---
-
-DROP TABLE IF EXISTS `goods_received_note`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `goods_received_note` (
-  `grn_id` varchar(20) NOT NULL COMMENT 'Mã nhập hàng',
-  `description` text NOT NULL COMMENT 'Chi tiết, nội dung, lý do của đơn nhập hàng.',
-  `date_received` datetime NOT NULL COMMENT 'Ngày nhận hàng',
-  `provider` varchar(50) NOT NULL COMMENT 'Tên đơn vị cung cấp',
-  `telephone` varchar(12) NOT NULL COMMENT 'Số điện thoại',
-  `address` varchar(255) NOT NULL COMMENT 'Địa chỉ nơi cung cấp',
-  `status` varchar(20) NOT NULL COMMENT 'Trạng thái phếu nhập. Khoảng giá trị: “pending, success, canceled”',
-  PRIMARY KEY (`grn_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `goods_received_note`
---
-
-LOCK TABLES `goods_received_note` WRITE;
-/*!40000 ALTER TABLE `goods_received_note` DISABLE KEYS */;
-/*!40000 ALTER TABLE `goods_received_note` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `goods_received_note_item`
---
-
-DROP TABLE IF EXISTS `goods_received_note_item`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `goods_received_note_item` (
-  `grn_id` varchar(20) NOT NULL COMMENT 'Mã nhập hàng',
-  `shop_sku` varchar(50) NOT NULL COMMENT 'Mã stock keeping unit do hệ thống laz tự động đặt. Khóa ShopSku là duy nhất',
-  `seller_sku` varchar(50) NOT NULL COMMENT 'Mã stock keeping unit do người dùng đặt hoặc hệ thống tự tạo khi người dùng không đặt. Mã SellerSku là duy nhất',
-  `name` varchar(255) NOT NULL COMMENT 'Tên sản phẩm',
-  `color` varchar(255) NOT NULL COMMENT 'Màu',
-  `size` varchar(20) NOT NULL COMMENT 'Size giày. Mẫu dữ liệu: EU:39',
-  `quantity` int(10) NOT NULL COMMENT 'Số lượng',
-  `price` decimal(15,2) NOT NULL COMMENT 'Giá nhập của sản phẩm',
-  PRIMARY KEY (`grn_id`,`shop_sku`),
-  KEY `fk_grni_sku` (`shop_sku`),
-  CONSTRAINT `fk_grni_grn` FOREIGN KEY (`grn_id`) REFERENCES `goods_received_note` (`grn_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `fk_grni_sku` FOREIGN KEY (`shop_sku`) REFERENCES `sku` (`shop_sku`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `goods_received_note_item`
---
-
-LOCK TABLES `goods_received_note_item` WRITE;
-/*!40000 ALTER TABLE `goods_received_note_item` DISABLE KEYS */;
-/*!40000 ALTER TABLE `goods_received_note_item` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -329,7 +269,7 @@ CREATE TABLE `product` (
   `category_id` varchar(20) NOT NULL COMMENT 'Mã loại',
   `seller_id` int(11) DEFAULT NULL,
   `brand` varchar(50) NOT NULL COMMENT 'Tên nhãn hiệu. Mặc định là “No Brand”',
-  `shoes_name` varchar(255) NOT NULL COMMENT 'Tên giày',
+  `product_name` varchar(255) NOT NULL COMMENT 'Tên giày',
   `short_desciption` text NOT NULL COMMENT 'Mô tả ngắn về sản phẩm',
   `description` text NOT NULL COMMENT 'Mô tả sản phẩm',
   `status` varchar(20) NOT NULL COMMENT 'Khoảng giá trị:  “active, inactive, deleted”',
@@ -348,6 +288,130 @@ CREATE TABLE `product` (
 LOCK TABLES `product` WRITE;
 /*!40000 ALTER TABLE `product` DISABLE KEYS */;
 /*!40000 ALTER TABLE `product` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `purchase_order`
+--
+
+DROP TABLE IF EXISTS `purchase_order`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `purchase_order` (
+  `purchase_order_id` int(11) NOT NULL,
+  `description` text DEFAULT NULL COMMENT 'Chi tiết, nội dung, lý do của đơn đặt hàng.',
+  `create_date` datetime DEFAULT NULL COMMENT 'Ngày lập phiếu đặt hàng',
+  `provider` varchar(50) DEFAULT NULL,
+  `telephone` varchar(13) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL COMMENT 'Địa chỉ nhà cung cấp',
+  `status` varchar(20) DEFAULT NULL COMMENT 'Khoảng giá trị: “pending, success, cancel, deleted”',
+  PRIMARY KEY (`purchase_order_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `purchase_order`
+--
+
+LOCK TABLES `purchase_order` WRITE;
+/*!40000 ALTER TABLE `purchase_order` DISABLE KEYS */;
+/*!40000 ALTER TABLE `purchase_order` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `purchase_order_details`
+--
+
+DROP TABLE IF EXISTS `purchase_order_details`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `purchase_order_details` (
+  `purchase_order_id` int(11) NOT NULL,
+  `shop_sku` varchar(50) NOT NULL,
+  `seller_sku` varchar(50) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `color` varchar(255) DEFAULT NULL,
+  `size` varchar(20) DEFAULT NULL,
+  `quantity_ordered` int(10) DEFAULT NULL,
+  `price` decimal(15,2) DEFAULT NULL,
+  PRIMARY KEY (`shop_sku`,`purchase_order_id`),
+  KEY `fk_purchaseorder_purchaseorderid_idx` (`purchase_order_id`),
+  KEY `fk-purchaseorder_shopsku_idx` (`shop_sku`),
+  CONSTRAINT `fk-purchaseorder_shopsku` FOREIGN KEY (`shop_sku`) REFERENCES `sku` (`shop_sku`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_purchaseorder_purchaseorderid` FOREIGN KEY (`purchase_order_id`) REFERENCES `purchase_order` (`purchase_order_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `purchase_order_details`
+--
+
+LOCK TABLES `purchase_order_details` WRITE;
+/*!40000 ALTER TABLE `purchase_order_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `purchase_order_details` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `receiving_details`
+--
+
+DROP TABLE IF EXISTS `receiving_details`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `receiving_details` (
+  `receiving_id` int(11) NOT NULL,
+  `shop_sku` varchar(50) NOT NULL,
+  `seller_sku` varchar(50) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `color` varchar(255) DEFAULT NULL,
+  `size` varchar(20) DEFAULT NULL,
+  `quantity_received` int(11) DEFAULT NULL,
+  `quantity_approved` int(11) DEFAULT NULL,
+  `price` decimal(15,2) DEFAULT NULL,
+  PRIMARY KEY (`receiving_id`,`shop_sku`),
+  KEY `fk_receivingdetails_shopsku_idx` (`shop_sku`),
+  CONSTRAINT `fk_receivingdetails_receivingid` FOREIGN KEY (`receiving_id`) REFERENCES `receiving_slip` (`receiving_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_receivingdetails_shopsku` FOREIGN KEY (`shop_sku`) REFERENCES `sku` (`shop_sku`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `receiving_details`
+--
+
+LOCK TABLES `receiving_details` WRITE;
+/*!40000 ALTER TABLE `receiving_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `receiving_details` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `receiving_slip`
+--
+
+DROP TABLE IF EXISTS `receiving_slip`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `receiving_slip` (
+  `receiving_id` int(11) NOT NULL,
+  `purchase_order_id` int(11) DEFAULT NULL,
+  `description` text DEFAULT NULL COMMENT 'Chi tiết, nội dung, lý do của đơn nhập hàng.',
+  `create_date` datetime DEFAULT NULL,
+  `date_received` datetime DEFAULT NULL,
+  `provider` varchar(50) DEFAULT NULL COMMENT 'Tên đơn vị cung cấp.',
+  `telephone` varchar(13) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `status` varchar(20) DEFAULT NULL COMMENT 'Trạng thái phếu nhập.\nKhoảng giá trị: “pending, success, canceled”\n',
+  PRIMARY KEY (`receiving_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `receiving_slip`
+--
+
+LOCK TABLES `receiving_slip` WRITE;
+/*!40000 ALTER TABLE `receiving_slip` DISABLE KEYS */;
+/*!40000 ALTER TABLE `receiving_slip` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -386,6 +450,7 @@ CREATE TABLE `role_permision` (
   `role_id` int(11) NOT NULL,
   `permision_id` int(11) NOT NULL,
   `status` int(11) DEFAULT NULL COMMENT 'Giá trị khả dụng: 1,0. Thể hiện cho trạng thái kích hoạt và vô hiệu hóa permision cho role',
+  PRIMARY KEY (`role_id`,`permision_id`),
   KEY `fk_role_permision_role_idx` (`role_id`),
   KEY `fk_role_permision_permision_idx` (`permision_id`),
   CONSTRAINT `fk_role_permision_permision` FOREIGN KEY (`permision_id`) REFERENCES `permision` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
@@ -512,4 +577,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-11-07 14:36:26
+-- Dump completed on 2020-11-12 19:44:51
