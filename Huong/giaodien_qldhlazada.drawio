@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T14:18:37.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="PhswiowlGWIKp65ArjPt" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T14:20:15.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="D1QkJyFb3tVKIvLGQbNO" version="13.9.7" type="github">
   <diagram id="KGwi7MBV-HeeOB8uTvPR" name="Page-1">
     <mxGraphModel dx="1718" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -514,7 +514,7 @@
         <mxCell id="a_UEtV7dZsAbRpvLaqEg-316" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px&quot;&gt;In hóa đơn&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#FF9933;" parent="1" vertex="1">
           <mxGeometry x="440" y="1430" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PDX1SKBFqP95i1WvJGO_-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px&quot; color=&quot;#cccccc&quot;&gt;Tìm kiếm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="PDX1SKBFqP95i1WvJGO_-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px&quot;&gt;Tìm kiếm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#FF9933;" vertex="1" parent="1">
           <mxGeometry x="730" y="140" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
