@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T13:45:46.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.11 Safari/537.36" version="13.10.0" etag="f_V8z5qQEPnrOe416hXa" type="github"><diagram id="ckflDNak5NGBGo-reAmW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-23T15:59:55.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.11 Safari/537.36" etag="NgK1TrDMi3PPIshCG5sX" version="13.10.0" type="github">
+  <diagram id="ckflDNak5NGBGo-reAmW" name="Page-1">
+    <mxGraphModel dx="935" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jA0tIVNWof_xC7lfkbHI-1" value="Người dùng" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="20" height="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="jA0tIVNWof_xC7lfkbHI-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#ffffff;" vertex="1" parent="jA0tIVNWof_xC7lfkbHI-1">
+          <mxGeometry x="5" y="160" width="10" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="jA0tIVNWof_xC7lfkbHI-2" value="Trang chức năng ủy quyền tài khoản" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="50" height="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="jA0tIVNWof_xC7lfkbHI-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#ffffff;" vertex="1" parent="jA0tIVNWof_xC7lfkbHI-2">
+          <mxGeometry x="20" y="160" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="jA0tIVNWof_xC7lfkbHI-3" value="Trang đăng nhập tài khoản laz seller center" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="650" y="40" width="50" height="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="jA0tIVNWof_xC7lfkbHI-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#ffffff;" vertex="1" parent="jA0tIVNWof_xC7lfkbHI-3">
+          <mxGeometry x="20" y="160" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jA0tIVNWof_xC7lfkbHI-4" value="Authorization" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="960" y="40" width="40" height="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="jA0tIVNWof_xC7lfkbHI-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#ffffff;" vertex="1" parent="jA0tIVNWof_xC7lfkbHI-4">
+          <mxGeometry x="15" y="160" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jA0tIVNWof_xC7lfkbHI-5" value="Seller Account" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="40" width="40" height="1360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
