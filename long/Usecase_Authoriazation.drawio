@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2020-11-20T13:39:36.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.11 Safari/537.36" etag="_BpfnT4wQJadmi1jkjhB" version="13.10.0" type="github">
+  <diagram id="hAk5Ul-J6cwtVWFWEco3" name="Page-1">
+    <mxGraphModel dx="939" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-2" value="" style="swimlane;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="40" width="520" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-7" value="Ủy quyền tài khoản laz seller center" style="ellipse;strokeColor=#36393d;whiteSpace=wrap;fillColor=#FFFFFF;" parent="aCooNFLIkiMwWX_VYOE8-2" vertex="1">
+          <mxGeometry x="80" y="185" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-8" value="Tạo access_token" style="ellipse;strokeColor=#36393d;whiteSpace=wrap;fillColor=#FFFFFF;" parent="aCooNFLIkiMwWX_VYOE8-2" vertex="1">
+          <mxGeometry x="320" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-9" value="Đăng nhập vào trang ủy quyền tài khoản" style="ellipse;strokeColor=#36393d;whiteSpace=wrap;fillColor=#FFFFFF;" parent="aCooNFLIkiMwWX_VYOE8-2" vertex="1">
+          <mxGeometry x="320" y="310" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-10" value="include" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="aCooNFLIkiMwWX_VYOE8-2" source="aCooNFLIkiMwWX_VYOE8-7" target="aCooNFLIkiMwWX_VYOE8-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="300" as="sourcePoint" />
+            <mxPoint x="100" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-11" value="include" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="aCooNFLIkiMwWX_VYOE8-2" source="aCooNFLIkiMwWX_VYOE8-7" target="aCooNFLIkiMwWX_VYOE8-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="340" as="sourcePoint" />
+            <mxPoint x="140" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-3" value="Người dùng" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-6" value="Laz OP" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-13" value="" style="endArrow=none;html=1;" parent="1" source="aCooNFLIkiMwWX_VYOE8-3" target="aCooNFLIkiMwWX_VYOE8-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="390" as="sourcePoint" />
+            <mxPoint x="170" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aCooNFLIkiMwWX_VYOE8-14" value="" style="endArrow=none;html=1;" parent="1" source="aCooNFLIkiMwWX_VYOE8-6" target="aCooNFLIkiMwWX_VYOE8-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="450" as="sourcePoint" />
+            <mxPoint x="320" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
