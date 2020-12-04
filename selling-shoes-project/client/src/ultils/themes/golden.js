@@ -38,10 +38,10 @@ export const goldenTheme = createMuiTheme(
 			},
 			"type": "light",
 			"primary": {
-				"light": "#ffef62",
-				"main": "#ffeb3b",
-				"dark": "#b2a429",
-				"contrastText": "#505050"
+				"light": "#ffcd38",
+				"main": "#ffc107",
+				"dark": "#b28704",
+				"contrastText": "#000000"
 			},
 			"secondary": {
 				"light": "#444f61",

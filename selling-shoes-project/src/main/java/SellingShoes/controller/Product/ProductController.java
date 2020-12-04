@@ -1,6 +1,11 @@
 package SellingShoes.controller.Product;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +32,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import SellingShoes.com.storage.StorageProperties;
 import SellingShoes.com.storage.StorageService;
 import SellingShoes.service.Product.ProductService;
 
@@ -49,10 +55,11 @@ public class ProductController {
 	public ProductController(StorageService storageService) {
 		this.storageService = storageService;
 	}
+	//get Products
 	@RequestMapping(method = RequestMethod.GET, value="/get")
 	public ResponseEntity<String> productsGet(
 			//@RequestHeader("access_token") String accessToken,
-			@RequestParam(name = "filter", required = false, defaultValue = "inactive") String filter,
+			@RequestParam(name = "filter", required = false, defaultValue = "live") String filter,
 			@RequestParam(name="search", required = false) String search,
 			@RequestParam(name="create_after", required = false, defaultValue ="2020-11-19T00:00:00+0800") String createAfter,
 			@RequestParam(name="create_before", required = false) String createBefore,
@@ -63,20 +70,32 @@ public class ProductController {
 			@RequestParam(name="option", required = false) String option,
 			@RequestParam(name="sku_seller_list", required = false) String skuSellerList
 			){
+				System.out.println(skuSellerList);
 		String responseJson = productService.getProducts(accessToken, lazUrl, appkey, appSecret, filter, search, createAfter, createBefore, updateAfter, updateBefore, offset, limit, option, skuSellerList);
 		return new ResponseEntity<String>(responseJson,HttpStatus.OK);
 	}
 	
 	//Create Product
-	@RequestMapping(method = RequestMethod.POST, value="/create", consumes = "application/json", produces = "application/json")
+	@RequestMapping(method = RequestMethod.POST, value="/create")
 	public ResponseEntity<String> productCreate(
-			@RequestBody ProductForm productForm
+			//@RequestBody ProductForm productForm,
+			@RequestBody String payload
+			//@RequestParam(name = "payload", required = false) String payload
 			){
-			System.out.println("--------------------");
-			System.out.println(productForm);
-			System.out.println("--------------------");
-
-		return new ResponseEntity<String>(productForm.toString(), HttpStatus.OK);
+	
+		String result = "";
+		try {
+			result = java.net.URLDecoder.decode(payload, StandardCharsets.UTF_8.name());
+		} catch (Exception e) {
+			//TODO: handle exception
+		}
+		
+		System.out.println("--------------------");
+		System.out.println(result);
+		System.out.println("--------------------");
+		String responseJson = productService.createProduct(accessToken, lazUrl, appkey, appSecret, result);
+		return new ResponseEntity<String>(responseJson,HttpStatus.OK);
+		//return new ResponseEntity<String>(productForm.toString(), HttpStatus.OK);
 	}
 	
 	//UploadImage
@@ -84,13 +103,28 @@ public class ProductController {
 	public ResponseEntity<String> imagesUpload(
 			@RequestParam(name="file", required=false) MultipartFile[] files,
 			RedirectAttributes redirectAttributes){
-			
+
+				Path rootLocation = Paths.get(new StorageProperties().getLocation());
+				String responseJson = "";
+				List<String> uris = new ArrayList<String>();
+
 			for(MultipartFile file : files) {
 				storageService.store(file);
 				redirectAttributes.addFlashAttribute("message", "You successfully uploaded " + file.getOriginalFilename() + "!");
-			}
-		
-		return new ResponseEntity<String>("{ [{\"image\": \"link of image\"},{\"image\": \"link of image\"}]}", HttpStatus.OK);
+				
+				uris.add(file.getOriginalFilename());
+			};
+			
+		/*
+		uris = storageService.load.map(
+					path -> path.getFileName().toString())
+					.collect(Collectors.toList());
+		*/
+		for(String uri: uris) {
+			responseJson += productService.uploadImage(accessToken, lazUrl, appkey, appSecret, rootLocation.toAbsolutePath()+"\\"+uri)+",";
+		}
+		responseJson=responseJson.substring(0,responseJson.length()-1);
+		return new ResponseEntity<String>("{\"images\":["+responseJson+"]}", HttpStatus.OK);
 	}
 	
 	//Test form
@@ -101,10 +135,10 @@ public class ProductController {
 				path -> MvcUriComponentsBuilder.fromMethodName(ProductController.class,
 						"serveFile", path.getFileName().toString()).build().toUri().toString())
 				.collect(Collectors.toList()));
-
+		
 		return "uploadForm";
-	}
-	
+	}	
+
 	@RequestMapping(method=RequestMethod.GET, value="/files/{filename:.+}")
 	@ResponseBody
 	public ResponseEntity<Resource> serveFile(@PathVariable String filename) {
@@ -112,4 +146,43 @@ public class ProductController {
 		return ResponseEntity.ok().header(HttpHeaders.CONTENT_DISPOSITION,
 				"attachment; filename=\"" + file.getFilename() + "\"").body(file);
 	}
+	
+	// get Brands
+	@RequestMapping(method = RequestMethod.GET, value="/brands/get")
+	public ResponseEntity<String> brandsGet(			
+			@RequestParam(name="offset", required = false, defaultValue = "0") String offset,
+			@RequestParam(name="limit",required = false, defaultValue = "10") String limit
+			){
+		String responseJson = productService.getBrands(accessToken, lazUrl, appkey, appSecret,offset, limit);
+		return new ResponseEntity<String>(responseJson,HttpStatus.OK);
+	}
+	
+	// get Product Item
+	@RequestMapping(method = RequestMethod.GET, value="/product/item/get")
+	public ResponseEntity<String> productItemGet(			
+			@RequestParam(name="item_id", required = false) String item_id,
+			@RequestParam(name="seller_sku",required = false) String seller_sku
+			){
+		String responseJson = productService.getProductItem(accessToken, lazUrl, appkey, appSecret,item_id, seller_sku);
+		return new ResponseEntity<String>(responseJson,HttpStatus.OK);
+	}
+	
+	//remove Product
+	@RequestMapping(method = RequestMethod.POST, value="/product/remove")
+	public ResponseEntity<String> productRemove(			
+			@RequestParam(name="seller_sku_list",required = false) String seller_sku_list
+			){
+		String responseJson = productService.removeProduct(accessToken, lazUrl, appkey, appSecret,seller_sku_list);
+		return new ResponseEntity<String>(responseJson,HttpStatus.OK);
+	}
+	
+	//update Product
+	@RequestMapping(method = RequestMethod.POST, value="/product/update")
+	public ResponseEntity<String> productUpdate(			
+			@RequestParam(name="payload",required = false) String payload
+			){
+		String responseJson = productService.updateProduct(accessToken, lazUrl, appkey, appSecret,payload);
+		return new ResponseEntity<String>(responseJson,HttpStatus.OK);
+	}
+		
 }

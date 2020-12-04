@@ -79,16 +79,17 @@ const TableLazOrder = (props) => {
 	const [rows, setRows] = useState([]);
 	const searchLazOrder = useSelector(state => state.searchLazOrder);
 	const {status} = props;
+
 	const fectchOrders = async ()=>{
-		await axiosHeroku.get(`/laz-orders/get?status=${status}${searchLazOrder.statement}`).then(res=>{
-			console.log(`/laz-orders/get?status=${status}${searchLazOrder.statement}`);
+		await axiosHeroku.get(`/laz-orders/get?status=${encodeURI(`${status}${searchLazOrder.statement}`)}`).then(res=>{
+			console.log(`/laz-orders/get?status=${encodeURI(`${status}${searchLazOrder.statement}`)}`);
 			let orders = res.data.data.orders;
-			console.log(" mounted table laz order  ");
 			console.log(searchLazOrder);
 			console.log(orders);
 			setRows(orders);
 		})
 	}
+
 	const handleRequestSort = (event, property) => {
 		const isAsc = (orderBy === property && order === 'asc');
 		setOrder(isAsc ? 'desc' : 'asc');
@@ -115,6 +116,7 @@ const TableLazOrder = (props) => {
 		}
 		setSelected(newSelected);
 	};
+
 	const handleExpand = (event, name) => {
 		const expandedIndex = expandedRow.indexOf(name);
 		let newExpandRow = [];
@@ -144,12 +146,16 @@ const TableLazOrder = (props) => {
 
 	const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
 
+	//Did mount 1 lan
 	useEffect(() => {
 		fectchOrders();
 	}, [])
+
+	//Did update searchLazOrder
 	useEffect(() => {
 		fectchOrders();
 	}, [searchLazOrder])
+
 	return (
 		<div className={classes.root}>
 			<Paper className={classes.paper}>
@@ -211,7 +217,7 @@ const TableLazOrder = (props) => {
 												<TableCell align="right">Sẵn sàng giao hàng/Huy</TableCell>
 											</TableRow>
 											{/* Table expanded */}
-											<ExpandRow open={expandedRow.includes(row.order_id)} order_id={row.order_id}/>
+											<ExpandRow style={{width: `100%`}} open={expandedRow.includes(row.order_id)} order_id={row.order_id}/>
 											{/*
 											<TableRow>
 												<TableCell style={{ padding: 0 }} colSpan={6}>

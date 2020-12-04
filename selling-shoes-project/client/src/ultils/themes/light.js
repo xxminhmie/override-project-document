@@ -1,4 +1,5 @@
 import { createMuiTheme } from "@material-ui/core";
+import { grey } from "@material-ui/core/colors";
 
 export const lightTheme = createMuiTheme(
     {
@@ -44,10 +45,10 @@ export const lightTheme = createMuiTheme(
             "contrastText": "#fff"
           },
           "secondary": {
-            "light": "#35baf6",
-            "main": "#03a9f4", //f50057
-            "dark": "#0276aa",
-            "contrastText": "#3D3D3D"
+            "light": grey[600],
+            "main": grey[700], //f50057
+            "dark": grey[800],
+            "contrastText": "#ffffff"
           },
           "error": {
             "light": "#e57373",
