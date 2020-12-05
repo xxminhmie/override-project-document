@@ -1,9 +1,14 @@
 package SellingShoes.model;
 
 import java.sql.Date;
+import java.util.ArrayList;
 
+import javax.persistence.CascadeType;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
@@ -34,4 +39,12 @@ public class Sku {
 	private Date specialFromTime;
 	private Date specialToTime;
 	private String status;
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @EqualsAndHashCode.Exclude 
+    @ToString.Exclude 
+    @JoinTable(name = "sku_image",
+            joinColumns = @JoinColumn(name = "shop_sku"),
+            inverseJoinColumns = @JoinColumn(name = "image")
+    )
+	ArrayList<Image> images = new ArrayList<Image>();
 }
