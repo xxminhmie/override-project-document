@@ -1,0 +1,173 @@
+{
+  "seller_account": [
+    {
+      "id": 1,
+      "first_name": "Long",
+      "last_name": "Tran",
+      "phone_number": "0858267296",
+      "email": "shenlong20119@gmail.com",
+      "password": "12345678",
+      "laz_app_key": "ac",
+      "laz_app_secret": "asc",
+      "laz_access_token": "50000700b26glHjApYRuee0JyehQ9srdBiiT4k16aa6531xudjHPixdyXUw4gkPc",
+      "laz_access_expires": 30000,
+      "laz_refresh_token": "asdafeafea",
+      "laz_refresh_expires": 400000
+    },
+    {
+      "id": 2,
+      "first_name": "Tik",
+      "last_name": "Tok",
+      "phone_number": "0123456789",
+      "email": "tranphanthanhlong18@gmail.com",
+      "password": "00ab1b7b6708904653086417f8fbcd12",
+      "laz_app_key": "ac",
+      "laz_app_secret": "asc",
+      "laz_access_token": "50000700b26glHjApYRuee0JyehQ9srdBiiT4k16aa6531xudjHPixdyXUw4gkPc",
+      "laz_access_expires": 30000,
+      "laz_refresh_token": "asdafeafea",
+      "laz_refresh_expires": 400000
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "primary_category": "6371",
+      "name": "Sneaker nam"
+    },
+    {
+      "id": 2,
+      "primary_category": "11197",
+      "name": "Giày lười & Giày mọi nam"
+    },
+    {
+      "id": 3,
+      "primary_category": "6363",
+      "name": "Bốt cao bồi nam"
+    },
+    {
+      "id": 4,
+      "primary_category": "7876",
+      "name": "Giày công sở nam"
+    },
+    {
+      "id": 5,
+      "primary_category": "11194",
+      "name": "Dép xỏ ngón nam"
+    },
+    {
+      "id": 6,
+      "primary_category": " 6247",
+      "name": "Giày búp bê"
+    },
+    {
+      "id": 7,
+      "primary_category": "11147",
+      "name": "Bốt thời trang nữ"
+    },
+    {
+      "id": 8,
+      "primary_category": "6319",
+      "name": "Giày cao gót"
+    },
+    {
+      "id": 9,
+      "primary_category": "7804",
+      "name": "Giày sneaker nữ"
+    }
+  ],
+  "receiving_details": [
+    {
+      "id": 1,
+      "receiving_slipId": 1,
+      "shop_sku": "",
+      "seller_sku": "",
+      "name": "",
+      "color": "",
+      "size": "",
+      "quanity_received": 10,
+      "quantity_approved": 10,
+      "price": 20000
+    },
+    {
+      "id": 2,
+      "receiving_slipId": 1,
+      "shop_sku": "",
+      "seller_sku": "",
+      "name": "",
+      "color": "",
+      "size": "",
+      "quanity_received": 9,
+      "quantity_approved": 4,
+      "price": 30000
+    }
+  ],
+  "receiving_slip": [
+    {
+      "id": 1,
+      "purchase_order_id": 1,
+      "description": "",
+      "create_date": "",
+      "date_received": "",
+      "provider": "",
+      "telephone": "",
+      "address": "",
+      "status": "pending"
+    }
+  ],
+  "bill": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "create_date": "345",
+      "update_date": "yyyy-mm-dd",
+      "discount": 3000,
+      "total": 10,
+      "status": "success"
+    }
+  ],
+  "bill_item": [
+    {
+      "id": 1,
+      "billId": 1,
+      "shop_sku": "123",
+      "seller_sku": "",
+      "number": "",
+      "price": 1234,
+      "paid_price": 1233
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "long",
+      "phone_number": "0858267296",
+      "address": "289/13, Ben Van Don",
+      "email": "shenlong20119@gmail.com"
+    }
+  ],
+  "purchase_order": [
+    {
+      "id": 1,
+      "description": "",
+      "create_date": "",
+      "provider": "",
+      "telephone": "",
+      "address": "289/13, Ben Van Don",
+      "status": "pending"
+    }
+  ],
+  "purchase_order_details": [
+    {
+      "id": 1,
+      "purchase_orderId": 1,
+      "shop_sku": "",
+      "seller_sku": "",
+      "name": "",
+      "color": "",
+      "size": "",
+      "quantity_ordered": 1,
+      "price": 1000
+    }
+  ]
+}

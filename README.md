@@ -1,5 +1,10 @@
 # override_project
 
+- ## File báo cáo: BÁO CÁO CÔNG NGHỆ PHẦN MỀM.docx
+- ## Activity bart chart: activity-bart-chart.xlsx
+- ## Source code back-end: selling-shoes-project
+- ## Source code font-end: selling-shoes-project/client
+- ## Slide power point: slide.pptx
 ## I. Quy trình git
 ![alt](https://images.viblo.asia/4d67b9cd-249f-43c3-9a73-363f876a6b1e.png)
 ## II. Quy tắc
